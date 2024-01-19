@@ -1,0 +1,127 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+}
+
+.logo {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.sign {
+    padding: 25px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.platform {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 13px !important;
+}
+
+.title {
+    font-size: 25px;
+    padding-bottom: 1rem !important;
+    font-weight: bold;
+}
+
+.user,
+.pass {
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+    background: #f6f6f6ad;
+    border: none;
+    width: 285px;
+}
+
+.face {
+    padding: 3px 34px 7px !important;
+    background: blue;
+    border-radius: 5px;
+    margin-right: 5px !important;
+}
+
+.google {
+    padding: 3px 34px 7px !important;
+    background: white;
+    border-radius: 5px;
+    margin-right: 5px !important;
+    border: 1px solid #f9f9f9;
+}
+
+.apple {
+    padding: 3px 34px 7px !important;
+    background: black;
+    border-radius: 5px;
+    margin-right: 5px !important;
+    border: 1px solid #f9f9f9;
+}
+
+.checkbox {
+    position: relative;
+    left: -80px;
+    margin-top: 16px !important;
+    display: flex;
+}
+
+.checkbox span {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 5px !important;
+}
+
+.backImgRight {
+    background-image: url(https://www.riotgames.com/darkroom/1400/d5285b8b221b1dcea0165f6ca67a0565:9ff408c7ea949f3846103f4c320b92f6/annie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.logBtn {
+    padding: 20px 25px !important;
+    border-radius: 20px;
+    border: 3px solid #ececec;
+    background: white;
+}
+
+.right {
+    color: #ececec;
+    font-size: 19px;
+}
+
+.loginBtn {
+    margin-top: 150px !important;
+}
+
+.loginBtn:hover .logBtn {
+    border: 3px solid #d1363a !important;
+}
+
+.loginBtn:hover .right {
+    color: #d1363a !important;
+}
+
+@media only screen and (max-width:767px) {
+    .backImgRight {
+        background-position: center !important;
+    }
+}
